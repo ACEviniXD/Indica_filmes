@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    padding: 16px 0;
+    background-color: #C8A2C8;
+    color: #783650;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container nav li a {
+    font-family: "Oswaldo", sans-serif;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
+section .articles article h3,
+section .container h2 {
+    background-color: #050405;
+    color: #C8A2C8;
+    padding: 8px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-family: "Oswaldo", sans-serif;
+    border-radius: 8px
+}
+
+section .articles article p {
+    background-color: #050405;
+    color: #C8A2C8;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 8px
+}
+
+header nav li {
+    background-color: #050405;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 18px;
+    border-radius: 8px
+}
+
+header nav li a {
+    color: #783650;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: block;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articles article img {
+    width: 50%;
+}
+
+.articles article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article p {
+    display: flex;
+    margin-right: 15px;
+    align-items:first baseline;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#film {
+    background-color: #783650;
+}
+
+#series {
+    background-color: #58306B;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #58306B;
+}
+
+.contact-methods h3 {
+    font-family: "Oswaldo", sans-serif;
+}
+
+.sobre p {
+        font-family: "Montserrat", sans-serif;
+}
+
+.contact-methods p {
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    background-color: #58306B;
+    color: #C8A2C8;
+    padding: 16px 0;
+    font-family: "Montserrat", sans-serif;
+}
